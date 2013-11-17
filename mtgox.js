@@ -7,7 +7,7 @@ var EventEmitter = require('events').EventEmitter;
 var util = require('util');
 var keys = require('./keys').keys;
 
-var MTGOX_SOCKET_URL = 'https://socketio.mtgox.com/mtgox';
+var MTGOX_SOCKET_URL = 'http://socketio.mtgox.com/mtgox';
 var MTGOX_CHANNELS = [
 		{ "key":"dbf1dee9-4f2e-4a08-8cb7-748919a71b21", "private":"trade", "name":"Trade" },
 		{ "key":"d5f06780-30a8-4a48-a2f8-7ed181b4a13f", "private":"ticker", "name":"Ticker" },
